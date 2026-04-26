@@ -22,4 +22,10 @@
 ### 技術スタック
 TBD
 
+## ドキュメント
+
+- [リリースノート](/docs/release-notes/README.md)
+- [ユーザーマニュアル](/docs/manual/README.md)
+- [開発者向けドキュメント](/docs/developer/README.md)
+
 <p align="right">(<a href="#readme-top"> back to top </a>)</p>
