@@ -1,0 +1,56 @@
+name: Task
+description: 開発・調査・整理などの作業タスク
+title: "chore: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        開発・調査・整理などのタスクを記入してください。
+
+  - type: input
+    id: version
+    attributes:
+      label: 対象バージョン
+      description: 関連するバージョンを記入してください。
+      placeholder: "v0.1.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: タスクの概要を記入してください。
+      placeholder: "GitHub Issue Template を追加する。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+      description: なぜこの作業を行うのかを記入してください。
+    validations:
+      required: false
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 作業内容
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      value: |
+        - [ ] 作業内容が完了している
+        - [ ] 必要に応じてドキュメントが更新されている
+    validations:
+      required: true
