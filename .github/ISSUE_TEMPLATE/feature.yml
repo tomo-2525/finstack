@@ -1,0 +1,43 @@
+name: Feature request
+description: 新しい機能追加の提案
+title: "feat: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能追加の内容を記入してください。
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: 追加したい機能の概要を記入してください。
+      placeholder: "資産一覧画面を追加したい。"
+
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・目的
+      description: なぜこの機能が必要なのかを記入してください。
+      placeholder: "ユーザーが保有資産を一覧で確認できるようにするため。"
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 作業内容
+      description: 実装するタスクをチェックリストで記入してください。
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 完了条件
+      description: この Issue を完了とする条件を記入してください。
+      value: |
+        - [ ] 画面が表示できる
+        - [ ] テストが通る
+        - [ ] README またはドキュメントを更新する

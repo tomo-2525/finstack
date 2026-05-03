@@ -1,0 +1,45 @@
+name: Bug report
+description: 不具合報告
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        発生している不具合について記入してください。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 発生している問題
+      description: どのような問題が起きているかを記入してください。
+      placeholder: "ログインボタンを押しても画面遷移しない。"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 不具合を再現する手順を記入してください。
+      value: |
+        1. 
+        2. 
+        3. 
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動作
+      description: 本来どう動くべきかを記入してください。
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: 実際にどう動いたかを記入してください。
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット
+      description: エラーログやスクリーンショットがあれば貼り付けてください。
+      render: shell
